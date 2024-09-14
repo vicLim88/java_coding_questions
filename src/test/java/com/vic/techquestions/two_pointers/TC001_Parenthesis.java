@@ -1,11 +1,11 @@
-package com.vic.techquestions;
+package com.vic.techquestions.two_pointers;
 
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.example.helpers.BalancedParenthesis.isBalanced;
 
-public class TestCase002 {
+public class TC001_Parenthesis {
     ///Single Bracket Pairs
     @Test
     public void parenthesis_is_balanced_001() {
