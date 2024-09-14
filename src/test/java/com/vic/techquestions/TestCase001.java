@@ -2,16 +2,13 @@ package com.vic.techquestions;
 
 import org.junit.jupiter.api.Test;
 
-import org.example.StringReversal;
+import org.example.helpers.StringReversal;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class TestCase001 {
     private final String test_data = "Bubble";
     private final String expected = "elbbuB";
-
-    @Test
-    public void test
 
     @Test
     public void testReverseString(){

@@ -1,4 +1,4 @@
-package org.example;
+package org.example.helpers;
 
 public class StringReversal {
     private final String strToReverse;
@@ -12,7 +12,6 @@ public class StringReversal {
         for(int i = this.strToReverse.length()-1; i>=0; i--){
             sb.append(this.strToReverse.charAt(i));
         }
-        sb.reverse();
         return sb.toString();
     }
 }
